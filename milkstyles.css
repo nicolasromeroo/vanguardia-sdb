@@ -1,0 +1,86 @@
+
+body {
+    text-align: center;
+    font-family: 'Belanosima', sans-serif;
+    background-color: #2e2e2e;
+    color: #ff711f;
+}
+
+h1, h2 {
+    color: #ff823a;
+}
+
+/* cargar STOCKS */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.formStocks {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.formStocks input {
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f8b792;
+}
+
+.formStocks input::placeholder {
+    color: #000;
+    font-family: 'Belanosima', sans-serif;
+}
+
+.formStocks button {
+    width: 90px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Belanosima', sans-serif;
+}
+
+/* formulario STOCKS */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+#alerts1 {
+    margin-bottom: 20px;
+    color: #d7ff27;
+    font-weight: bold;
+}
+
+#alerts {
+    background-color: #ccff6c;
+    margin-bottom: 20px;
+    color: #fd4444;
+    font-weight: bold;
+}
+
+.expiring-soon {
+    background-color: #ccff6c;
+    font-weight: bold;
+}
+
+.expired {
+    background-color: #fd4444;
+    color: #f8b792;
+    font-weight: bold;
+}
+
