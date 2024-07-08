@@ -945,6 +945,20 @@ footer .copyright {
     100% {margin-right: 0%;}
 }
 
+@media (max-width: 380px) {
+    
+    body {
+        display: flex;
+        flex-direction: column;
+        }
+        
+    .title {
+        margin-bottom: 0px;
+        font-size: 40px;
+    }
+        
+}
+
 @media (max-width: 760px) {
 
     p {
