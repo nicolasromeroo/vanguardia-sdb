@@ -2,7 +2,8 @@
 body {
     text-align: center;
     font-family: 'Belanosima', sans-serif;
-    background-color: #2e2e2e;
+    /* background-color: #2e2e2e; */
+    background-color: #000;
     color: #ff711f;
 }
 
@@ -83,4 +84,30 @@ th, td {
     color: #f8b792;
     font-weight: bold;
 }
+
+.red {
+    background-color: red;
+    color: white;
+}
+
+.orange {
+    background-color: orange;
+    color: black;
+}
+
+.yellow {
+    background-color: yellow;
+    color: black;
+}
+
+.green {
+    background-color: green;
+    color: white;
+}
+
+.expired {
+    background-color: gray;
+    color: white;
+}
+
 
