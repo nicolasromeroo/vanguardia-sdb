@@ -916,6 +916,13 @@ footer .copyright {
     margin: 0;
 } */
 
+.dairy {
+    background-color: lightgreen !important;
+}
+
+.head2 {
+    display: none;
+}
 
 @keyframes izquierda {
     0% {
@@ -958,17 +965,43 @@ footer .copyright {
 }
 
 @media (max-width: 380px) {
-    
+
     body {
         display: flex;
         flex-direction: column;
-        }
+    }
+
+    .head {
+        display: none;
+    }
+
+    .head2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .content2 {
+    display: none;    
+    }
+
+    .box-container {
+        display: block;
+    }
+
+    .logoletras {
+        display: none;
+    }
+
+    .logo {
+        width: 100%;
         
+    }
+    
     .title {
         margin-bottom: 0px;
         font-size: 40px;
     }
-        
+
 }
 
 @media (max-width: 760px) {
@@ -1005,4 +1038,3 @@ footer .copyright {
         display: none;
     }
 }
-
