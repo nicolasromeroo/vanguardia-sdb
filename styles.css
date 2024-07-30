@@ -204,7 +204,7 @@ p {
 }
 
 .dairy {
-    background-color: lightgreen;
+    background-color: lightgreen !important;
 
 .box-container .box {
     position: relative;
